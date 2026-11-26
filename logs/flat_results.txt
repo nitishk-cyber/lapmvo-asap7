@@ -1,0 +1,6 @@
+s38417  TT T=554.25   | SWAPRESULT candidates=10041 swapped=9845 rejected=196 | DFF_RVT=1552 DFF_SLVT=12 | base leak=65681.08 nW setup=72.30 hold=-8.63 | final setup=0.14 hold=-10.61 leak=1720.55 nW | reduction=97.4%
+s38417  SS T=779.85   | SWAPRESULT candidates=10041 swapped=9770 rejected=271 | DFF_RVT=1554 DFF_SLVT=10 | base leak=401968.30 nW setup=101.72 hold=-17.30 | final setup=0.02 hold=-16.02 leak=17845.98 nW | reduction=95.6%
+s38417  FF T=431.94   | SWAPRESULT candidates=10041 swapped=9854 rejected=187 | DFF_RVT=1555 DFF_SLVT=9 | base leak=41973.93 nW setup=56.26 hold=-6.45 | final setup=0.21 hold=-9.20 leak=1188.29 nW | reduction=97.2%
+s38584  TT T=1911.59  | SWAPRESULT candidates=11538 swapped=11533 rejected=5 | DFF_RVT=1416 DFF_SLVT=0 | base leak=63389.17 nW setup=249.33 hold=-2.85 | final setup=3.24 hold=0.00 leak=669.73 nW | reduction=98.9%
+s38584  SS T=2847.55  | SWAPRESULT candidates=11538 swapped=11536 rejected=2 | DFF_RVT=1416 DFF_SLVT=0 | base leak=377155.80 nW setup=371.42 hold=-1.21 | final setup=158.37 hold=-0.43 leak=8612.22 nW | reduction=97.7%
+s38584  FF T=1494.93  | SWAPRESULT candidates=11538 swapped=11537 rejected=1 | DFF_RVT=1416 DFF_SLVT=0 | base leak=41026.50 nW setup=194.98 hold=-1.49 | final setup=102.07 hold=-1.37 leak=539.63 nW | reduction=98.7%

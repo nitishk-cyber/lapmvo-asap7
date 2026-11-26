@@ -1,0 +1,25 @@
+--- DFF_1421 in the pre-LA-PMVO flat netlist ---
+1890:  wire \DFF_1421.CK ;
+1891:  wire \DFF_1421.D ;
+1892:  wire \DFF_1421.Q ;
+1893:  wire \DFF_1421._0_ ;
+23284:  INVx1_ASAP7_75t_SL \DFF_1421._1_  (
+23285:    .A(\DFF_1421._0_ ),
+run/s38584_flatfinal_TT.v      zero_ uses=1  PATCHED (wire declared before: False)
+run/s38584_flatfinal_SS.v      zero_ uses=1  PATCHED (wire declared before: False)
+run/s38584_flatfinal_FF.v      zero_ uses=1  PATCHED (wire declared before: False)
+--- zero_ lines after patch (TT) ---
+14523:    .D(zero_));
+47702: wire zero_;
+47703: assign zero_ = 1'h0;
+--- re-measure on the repaired finals ---
+s38584 TT setup=    3.24 hold=  0.00 leak=   669.73 nW   (before: setup 3.24 hold 0.00 leak 669.73)
+s38584 SS setup=  158.37 hold= -0.43 leak=  8612.22 nW   (before: setup 158.37 hold -0.43 leak 8612.22)
+s38584 FF setup=  102.07 hold= -1.37 leak=   539.63 nW   (before: setup 102.07 hold -1.37 leak 539.63)
+
+##### bounded sequential equivalence, 8 clock cycles from all-zero state (SEQ models loaded) #####
+(control netlist: 50 lines changed)
+s38417_final (depth 8): model found: FAIL!   [14 s]
+s38417_BROKEN (depth 8): model found: FAIL!   [14 s]
+s38584_final (depth 8): model found: FAIL!   [20 s]
+#### DONE ####

@@ -1,0 +1,8 @@
+circuit,result,seconds
+c432,EQUIVALENT,0
+c880,EQUIVALENT,0
+c1908,EQUIVALENT,1
+c2670,ERROR: ERROR: Called with -verify and proof did fail!,0
+c5315,EQUIVALENT,1
+c7552,EQUIVALENT,2
+#### DONE ####

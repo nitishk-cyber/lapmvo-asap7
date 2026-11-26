@@ -1,0 +1,6 @@
+.DS_Store
+*.prepatch
+*.prepatch2
+__pycache__/
+*.pyc
+*.tar.gz

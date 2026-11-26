@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use these scripts, netlists or logs, please cite them as below."
+title: "LA-PMVO: scripts, netlists and logs (ASAP7, Yosys, OpenSTA)"
+version: 1.0.0
+date-released: 2026-11-26
+license: MIT
+authors:
+  - family-names: Kumar
+    given-names: Nitish
+    affiliation: "Gaya College of Engineering, Gaya, Bihar, India"
+  - family-names: Saurabh
+    given-names: Saket
+    affiliation: "Gaya College of Engineering, Gaya, Bihar, India"
+  - family-names: Ranjan
+    given-names: Mrinal
+    affiliation: "Gaya College of Engineering, Gaya, Bihar, India"
+keywords:
+  - multi-Vt
+  - leakage power
+  - OpenSTA
+  - Yosys
+  - ASAP7

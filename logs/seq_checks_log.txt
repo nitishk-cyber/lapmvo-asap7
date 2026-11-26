@@ -1,0 +1,23 @@
+##### A: constant-tie nets in the written netlists #####
+run/c2670_final_mvt.v : zero_/one_ mentions=0  driven(assign)=0
+run/s38417_flatfinal_TT.v : zero_/one_ mentions=0  driven(assign)=0
+run/s38584_flatfinal_TT.v : zero_/one_ mentions=1  driven(assign)=0
+run/s38584_flat_SLVT.v : zero_/one_ mentions=0  driven(assign)=0
+14523:    .D(zero_));
+
+##### B: replay of 04_synthesize_all.sh (no flatten) - dff instances after each step #####
+== s38584 (start: 1426 dff instances in the source)
+1426 objects. 1426 objects.
+1426 objects. 1426 objects.
+1426 objects. 1416 objects.
+== s38417 (start: 1636 dff instances in the source)
+1636 objects. 1564 objects.
+1564 objects. 1564 objects.
+1564 objects. 1564 objects.
+(your real synthesized netlists have 1416 (s38584) and 1564 (s38417) dff instances)
+
+##### C: bounded sequential equivalence, 8 clock cycles from all-zero state #####
+s38417_final (depth 8): ERROR: ERROR: Failed to import cell gate.DFF_0._2_ (type DFFHQNx1_ASAP7_75t_R) to SAT database.   [5 s]
+s38417_BROKEN (depth 8): ERROR: ERROR: Failed to import cell gate.DFF_0._2_ (type DFFHQNx1_ASAP7_75t_R) to SAT database.   [6 s]
+s38584_final (depth 8): ERROR: ERROR: Failed to import cell gate.DFF_0._2_ (type DFFHQNx1_ASAP7_75t_R) to SAT database.   [6 s]
+#### DONE ####
