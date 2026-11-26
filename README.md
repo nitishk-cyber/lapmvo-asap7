@@ -70,8 +70,7 @@ The six combinational final netlists were proven functionally equivalent to thei
   ISCAS-89 sources are from `santoshsmalagi/Benchmarks`.
 
 ## Citation
-Please cite the manuscript (details to be added after publication) and, if you use these files, this repository
-(see `CITATION.cff`).
+DOI: https://doi.org/10.5281/zenodo.24549129
 
 ## License
 MIT for the scripts and logs (see `LICENSE`). Third-party tools, benchmarks and the ASAP7 PDK keep their own licenses.
